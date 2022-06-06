@@ -6,12 +6,13 @@ import requests
 from bs4 import BeautifulSoup
 from discord.ext import commands
 
-token = 'ODQwMTk1NzQ5MzA3MjE5OTk5.YJUrRA.mwIF6pZ8jSVKNe8dIG9rXMpY1JE'
+#could be changed
+token = 'token'
 prefix = '!'
 
 headers = {
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.198 (Edition Yx)'
+    'accept': 'accept',
+    'user-agent': 'user-agent'
 }
 
 descs = {
@@ -172,7 +173,7 @@ async def Shelp(ctx):
 		"To register\n"
 		"For re-registration\n"
 		"To view your SteamRPG level\n\n"
-		"To view some steam account information\n"
+		"To view some steam account information\n\n"
 		"To view the top 10 registered users"
 	)
 
